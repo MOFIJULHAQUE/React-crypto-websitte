@@ -1,6 +1,10 @@
 import { Avatar, Box, Stack, VStack, Text } from "@chakra-ui/react";
 import React from "react";
-import Haque from "../assets/haque.jpg"
+import Haque from "../assets/haque.jpg";
+
+
+
+// const avataSrc= ""
 
 const Footer = () => {
   return (
@@ -27,7 +31,7 @@ const Footer = () => {
           </VStack>
 
           <VStack>
-            <Avatar boxSize={"28"} mt={["4", "0"]} />
+            <Avatar boxSize={"28"} mt={["4", "0"]} src={Haque} />
            
             <Text fontWeight={"bold"} le>Mofijul Haque</Text>
           </VStack>
