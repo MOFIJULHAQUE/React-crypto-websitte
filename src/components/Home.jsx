@@ -3,6 +3,7 @@ import { Box, Image } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 import img from "../assets/btc.png";
+import main from "../assets/main.gif";
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
           repeatType:"reverse"
         }}
         >
-          <Image w={"full"} h={"full"} objectFit={"contain"} src={img} />
+          <Image w={"full"} h={"full"} objectFit={"contain"} src={main} />
         </motion.div>
         {/* <Text
           textAlign={"center"}
