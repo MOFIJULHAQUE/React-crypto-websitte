@@ -3,7 +3,7 @@ import { Box, Image } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 // import img from "../assets/btc.png";
-import main from "../assets/main.gif";
+import main from "../assets/loginimg3.png";
 
 const Home = () => {
   return (
